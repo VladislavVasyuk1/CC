@@ -40,3 +40,21 @@ while ( current <= num)
 
 // task 4
 
+
+
+using System;// Задача 10: Напишите программу, которая принимает на вход трёхзначное число 
+// и на выходе показывает вторую цифру этого числа.
+
+int secNum(arg) 
+{
+	int numHungrets = arg / 10;
+	int res = numHungrets % 10;
+}
+return res;
+
+Console.WriteLine("Input the number: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+int  resultat = secNum(number);
+
+Console.WriteLine("The second number {resultat}");
